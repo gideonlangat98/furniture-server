@@ -1,43 +1,7 @@
 import React, { useState } from 'react';
 
-// const initData = {
-//     pre_heading: "Login",
-//     heading: "Login to your Account",
-// }
-
-// const socialData = [
-//     {
-//         id: "1",
-//         link: "facebook",
-//         icon: "fab fa-facebook-f"
-//     },
-//     {
-//         id: "2",
-//         link: "twitter",
-//         icon: "fab fa-twitter"
-//     },
-//     {
-//         id: "3",
-//         link: "google-plus",
-//         icon: "fab fa-google-plus-g"
-//     }
-// ]
-
 function Login({ onLogin }) {
     const [showLogin, setShowLogin] = useState(true);
-
-// class Login extends Component {
-//     state = {
-//         initData: {},
-//         data: []
-//     }
-    // componentDidMount(){
-    //     this.setState({
-    //         initData: initData,
-    //         data: socialData
-    //     })
-    // }
-    // return() {
         return (
             <section className="author-area">
                 <div className="container">
@@ -77,17 +41,6 @@ function Login({ onLogin }) {
                                         <hr />
                                         <div className="other-option">
                                             <span className="d-block text-center mb-4">Or</span>
-                                            {/* Social Icons */}
-                                            {/* <div className="social-icons d-flex justify-content-center">
-                                                {this.state.data.map((item, idx) => {
-                                                    return (
-                                                        <a key={`lsd_${idx}`} className={item.link} href="#">
-                                                            <i className={item.icon} />
-                                                            <i className={item.icon} />
-                                                        </a>
-                                                    );
-                                                })}
-                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
