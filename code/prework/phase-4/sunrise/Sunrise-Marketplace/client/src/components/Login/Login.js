@@ -1,27 +1,27 @@
 import React, { useState } from 'react';
 
-// const initData = {
-//     pre_heading: "Login",
-//     heading: "Login to your Account",
-// }
+const initData = {
+    pre_heading: "Login",
+    heading: "Login to your Account",
+}
 
-// const socialData = [
-//     {
-//         id: "1",
-//         link: "facebook",
-//         icon: "fab fa-facebook-f"
-//     },
-//     {
-//         id: "2",
-//         link: "twitter",
-//         icon: "fab fa-twitter"
-//     },
-//     {
-//         id: "3",
-//         link: "google-plus",
-//         icon: "fab fa-google-plus-g"
-//     }
-// ]
+const socialData = [
+    {
+        id: "1",
+        link: "facebook",
+        icon: "fab fa-facebook-f"
+    },
+    {
+        id: "2",
+        link: "twitter",
+        icon: "fab fa-twitter"
+    },
+    {
+        id: "3",
+        link: "google-plus",
+        icon: "fab fa-google-plus-g"
+    }
+]
 
 function Login({ onLogin }) {
     const [showLogin, setShowLogin] = useState(true);
