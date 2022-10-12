@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Login({ onLogin }) {
-    const [showLogin, setShowLogin] = useState(true);
+    const [showLogin, setShowLogin] = useState(true)
         return (
             <section className="author-area">
                 <div className="container">
